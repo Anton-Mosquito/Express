@@ -1,0 +1,22 @@
+@host = http://localhost:5000/api
+
+
+
+### Example GET request
+GET {{host}}/posts HTTP/1.1
+content-type: application/json
+
+
+### Example POST request
+
+### Create An User
+POST {{host}}/posts HTTP/1.1
+content-type: application/json
+
+{
+  "author": "Anton",
+  "title": "Express",
+  "content": "content"
+}
+
+### Example PUT request
